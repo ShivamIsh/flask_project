@@ -9,6 +9,14 @@
   <body>
     <marquee><h1>THIS IS THE MAIN PAGE </h1></marquee>
     <img src = "https://picsum.photos/1920/300.jpg">
+    <p>Position open</p>
+      <p>{% for job in jobs %}
+        <div> {{job['title']}}</div>
+
+        {%endfor%}
+      
+      </p>
+    
 
     <button> Contact Us</button>
   </body>
